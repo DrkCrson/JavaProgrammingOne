@@ -3,7 +3,7 @@ package Chapter2;
 import java.util.Scanner;
 
 /**
- * Program displays Temperature in Celsius & Converts it to Fahrenheit
+ * Program displays Temperature in Celsius and Converts it to Fahrenheit
  *
  * @author Nicholas Jackson
  */
@@ -14,7 +14,6 @@ public class C2_1 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
