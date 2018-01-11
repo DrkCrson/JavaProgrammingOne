@@ -9,7 +9,6 @@ import java.util.Scanner;
  *
  * @author Nicholas Jackson
  */
-
 public class P6 {
 
     /**
@@ -17,7 +16,6 @@ public class P6 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String resp, type;
@@ -50,6 +48,13 @@ public class P6 {
         } while (resp.equalsIgnoreCase("y"));
     }
 
+    /**
+     * Method to convert Currency to Dollars
+     *
+     * @param rate the rate of the currency we converted to.
+     * @param amount the amount in which the dollars are converted to.
+     * @return the amount of dollars it equals in the currency converted to.
+     */
     public static double convert(double rate, double amount) {
         double mony, ttl, money;
         if (amount <= 100) {
