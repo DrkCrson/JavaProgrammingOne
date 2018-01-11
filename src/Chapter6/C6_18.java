@@ -10,7 +10,6 @@ import java.util.Scanner;
  *
  * @author Nicholas Jackson
  */
-
 public class C6_18 {
 
     /**
@@ -18,7 +17,6 @@ public class C6_18 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -37,6 +35,12 @@ public class C6_18 {
         System.out.println(Correct);
     }
 
+    /**
+     * checkLength method
+     *
+     * @param pass passes the password if it meets the check
+     * @return returns yes or no if it passes the check
+     */
     public static String checkLength(String pass) {
         if (pass.length() >= 8) {
 
@@ -46,6 +50,12 @@ public class C6_18 {
         }
     }
 
+    /**
+     * lettersAndDigits method
+     *
+     * @param pass passes the password if it meets the check
+     * @return returns yes or no if it passes the check
+     */
     public static String lettersAndDigits(String pass) {
         int no = 0;
         for (int x = 0; x < pass.length(); x++) {
@@ -60,6 +70,12 @@ public class C6_18 {
         }
     }
 
+    /**
+     * containsTwoDigits method
+     *
+     * @param pass passes the password if it meets the check
+     * @return returns yes or no if it passes the check
+     */
     public static String containsTwoDigits(String pass) {
         int counter = 0;
         for (int x = 0; x < pass.length(); x++) {
